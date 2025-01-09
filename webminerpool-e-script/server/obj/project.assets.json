@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/Server.csproj",
+      "projectUniqueName": "/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/Server.csproj",
       "projectName": "Server",
-      "projectPath": "/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/Server.csproj",
+      "projectPath": "/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/Server.csproj",
       "packagesPath": "/Users/gioliguori/.nuget/packages/",
-      "outputPath": "/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/",
+      "outputPath": "/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gioliguori/.nuget/NuGet/NuGet.Config"

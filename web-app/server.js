@@ -24,7 +24,8 @@ app.get('/comments.html', (req, res) => {
 
 app.get('/get-comments', async (req, res) => {
   try {
-    const comments = await knex('posts').select('*');
+    const comments =
+        await knex('posts').select('*').orderBy('timestamp', 'asc');
     // console.log('Dati recuperati:', comments);
     res.json(comments);
   } catch (err) {
