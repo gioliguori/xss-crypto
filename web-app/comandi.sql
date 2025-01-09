@@ -2,10 +2,10 @@ CREATE DATABASE applicazione;
 
 USE applicazione;
 
-CREATE TABLE posts(
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT,
     utente VARCHAR(255),
-    commento VARCHAR(255),
-    PRIMARY KEY(utente, commento)
+    commento text,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(id) 
 );
-
-ALTER TABLE posts ADD COLUMN timestamp DATETIME DEFAULT CURRENT_TIMESTAMP;
