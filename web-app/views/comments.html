@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Commenti</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Commenti</h1>
+  <div id="comments-container"></div>
+  <p><a href="/">Torna alla home</a></p>
+
+  <script>
+    fetch('/get-comments')
+      .then(response => response.json())
+      .then(comments => {
+        let html = '<ul class="comment-list">';
+        comments.forEach(comment => {
+                  // Converte il timestamp in un formato leggibile
+        const formattedTimestamp = new Date(comment.timestamp).toLocaleString('it-IT', {
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric'
+        });
+          // Costruiamo l'HTML in modo non sicuro
+          html += `<li><strong>${comment.utente} <small>${formattedTimestamp}</small></strong>: ${comment.commento}</li>`;
+        });
+        html += '</ul>';
+        // Inseriamo l'HTML non sanitizzato nel DOM
+        document.getElementById('comments-container').innerHTML = html;
+      })
+      .catch(err => console.error('Errore nel recuperare i commenti:', err));
+  </script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+/* Resetta alcuni stili di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Impostazioni generali del corpo */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Contenitore del titolo */
+h1 {
+  color: #4c4886;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Stile per il paragrafo informativo */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #777;
+  text-align: center;
+}
+
+/* Stile per la lista dei commenti */
+ul {
+  list-style-type: none;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; /* Aggiunto auto per centrare */
+  padding: 0;
+}
+
+
+/* Stile per il form */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #a5e8f1; 
+}
+
+/* Stile per le etichette dei campi */
+label {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Stile per i campi di input */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #519ed2; /* Rosa intenso */
+  outline: none;
+}
+
+/* Pulsante di invio */
+button {
+  background-color: #213a9c; 
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a7aeb; 
+}
+
+
+/* Stile per ogni elemento della lista (commento) */
+ul > li {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: 2px solid #a5e8f1;
+  width: 100%; /* Assicura che prenda tutta la larghezza disponibile */
+}
+
+/* Aggiunge un effetto hover ai commenti */
+ul > li:hover {
+  transform: translateY(-5px);
+}
+
+/* Nome utente del commento */
+ul > li strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #0802be;
+  margin-bottom: 10px;
+}
+
+/* Testo del commento */
+ul > li p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Stile per il link */
+a {
+  color: #251c48;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  text-align: center;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Aggiunto per centrare il contenitore dei commenti */
+#comments-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Modifica per assicurare che la lista prenda tutta la larghezza */
+.comment-list {
+  width: 100%;
+}

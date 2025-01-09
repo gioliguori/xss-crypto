@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>XSS Cryptojacking Demo</title>
+  <link rel="stylesheet" href="/styles.css"> 
+</head>
+<body>
+  <h1>Inserisci un commento</h1>
+  <p>
+    Questa pagina è deliberatamente vulnerabile a <strong>Stored XSS</strong>!
+  </p>
+
+  <form action="/submit-comment" method="POST">
+    <div>
+      <label for="user">Nome:</label><br/>
+      <input type="text" id="user" name="user" />
+    </div>
+    <br/>
+    <div>
+      <label for="text">Commento:</label><br/>
+      <textarea id="text" name="text" rows="5" cols="40"></textarea>
+    </div>
+    <br/>
+    <button type="submit">Invia Commento</button>
+  </form>
+
+  <p>
+    <a href="/comments.html">Visualizza Commenti</a>
+  </p>
+</body>
+</html>
+
+
+
+
