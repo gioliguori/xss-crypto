@@ -130,3 +130,7 @@ dist
 .pnp.*
 
 .DS_Store
+
+# Ignora tutte le cartelle net9.0
+webminerpool-e-script/server/obj/Release/net9.0/
+webminerpool-e-script/server/bin/Release/net9.0/
