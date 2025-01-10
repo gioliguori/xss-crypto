@@ -46,6 +46,7 @@ app.post('/submit-comment', async (req, res) => {
 });
 
 
+
 // Avvio server
 app.listen(PORT, () => {
   console.log(`Server XSS Demo in esecuzione su http://localhost:${PORT}`);

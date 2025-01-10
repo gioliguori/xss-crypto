@@ -1,0 +1,85 @@
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/bin/Release/net9.0/Server
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/bin/Release/net9.0/logins.json
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/bin/Release/net9.0/pools.json
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/bin/Release/net9.0/Server.deps.json
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/bin/Release/net9.0/Server.runtimeconfig.json
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/bin/Release/net9.0/Server.dll
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/bin/Release/net9.0/Server.pdb
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.AssemblyInfoInputs.cache
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.AssemblyInfo.cs
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.csproj.CoreCompileInputs.cache
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.sourcelink.json
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.dll
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/refint/Server.dll
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.pdb
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/Server.genruntimeconfig.cache
+/Users/gioliguori/Desktop/prova-miner/webminerpool/server/obj/Release/net9.0/ref/Server.dll
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/bin/Release/net9.0/Server
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/bin/Release/net9.0/logins.json
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/bin/Release/net9.0/pools.json
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/bin/Release/net9.0/Server.deps.json
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/bin/Release/net9.0/Server.runtimeconfig.json
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/bin/Release/net9.0/Server.dll
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/bin/Release/net9.0/Server.pdb
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.AssemblyInfoInputs.cache
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.AssemblyInfo.cs
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.csproj.CoreCompileInputs.cache
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.sourcelink.json
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.dll
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/refint/Server.dll
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.pdb
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/Server.genruntimeconfig.cache
+/Users/gioliguori/Documents/GitHub/prova-webminertool/webminerpool/server/obj/Release/net9.0/ref/Server.dll
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/bin/Release/net9.0/Server
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/bin/Release/net9.0/logins.json
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/bin/Release/net9.0/pools.json
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/bin/Release/net9.0/Server.deps.json
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/bin/Release/net9.0/Server.runtimeconfig.json
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/bin/Release/net9.0/Server.dll
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/bin/Release/net9.0/Server.pdb
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.AssemblyInfoInputs.cache
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.AssemblyInfo.cs
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.csproj.CoreCompileInputs.cache
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.sourcelink.json
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.dll
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/refint/Server.dll
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.pdb
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/Server.genruntimeconfig.cache
+/Users/gioliguori/Desktop/xss-crypto-finale/webminerpool-e-script/server/obj/Release/net9.0/ref/Server.dll
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/logins.json
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/pools.json
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.deps.json
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.runtimeconfig.json
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.dll
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.pdb
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.AssemblyInfoInputs.cache
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.AssemblyInfo.cs
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.csproj.CoreCompileInputs.cache
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.sourcelink.json
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.dll
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/refint/Server.dll
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.pdb
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.genruntimeconfig.cache
+/Users/gioliguori/Documents/GitHub/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/ref/Server.dll
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/logins.json
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/pools.json
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.deps.json
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.runtimeconfig.json
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.dll
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/bin/Release/net9.0/Server.pdb
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.AssemblyInfoInputs.cache
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.AssemblyInfo.cs
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.csproj.CoreCompileInputs.cache
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.sourcelink.json
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.dll
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/refint/Server.dll
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.pdb
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/Server.genruntimeconfig.cache
+/Users/luketto/Desktop/I Semestre/Network Security/Progetto/xss-crypto/webminerpool-e-script/server/obj/Release/net9.0/ref/Server.dll

