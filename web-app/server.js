@@ -6,29 +6,23 @@ const knex = require('./knexfile');
 const app = express();
 const PORT = 3000;
 
-// File statici per il CSS
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Parser per form POST
 app.use(bodyParser.urlencoded({extended: false}));
 
-// Serviamo il file HTML per la homepage
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-// Serviamo il file HTML per visualizzare i commenti
 app.get('/comments.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'comments.html'));
 });
 
 app.get('/get-comments', async (req, res) => {
   try {
-    const comments =
-        await knex('posts')
-            .select(
-                'utente', 'commento', 'timestamp')  // Escludi la colonna 'id'
-            .orderBy('timestamp', 'asc');
+    const comments = await knex('posts')
+                         .select('utente', 'commento', 'timestamp')
+                         .orderBy('timestamp', 'asc');
     // console.log('Dati recuperati:', comments);
     res.json(comments);
   } catch (err) {
