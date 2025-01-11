@@ -53,7 +53,7 @@ form {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 600px;
-  border: 2px solid #a5e8f1; 
+  border: 2px solid #8f89fa; 
 }
 
 /* Stile per le etichette dei campi */
@@ -79,13 +79,13 @@ textarea {
 
 input[type="text"]:focus,
 textarea:focus {
-  border-color: #519ed2; /* Rosa intenso */
+  border-color: #519ed2; 
   outline: none;
 }
 
 /* Pulsante di invio */
 button {
-  background-color: #213a9c; 
+  background-color: #3c3976; 
   color: white;
   padding: 12px 25px;
   border-radius: 6px;
@@ -96,7 +96,7 @@ button {
 }
 
 button:hover {
-  background-color: #5a7aeb; 
+  background-color: #6d68cc; 
 }
 
 
@@ -108,7 +108,7 @@ ul > li {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  border: 2px solid #a5e8f1;
+  border: 2px solid #8f89fa;
   width: 100%; /* Assicura che prenda tutta la larghezza disponibile */
 }
 
@@ -121,7 +121,7 @@ ul > li:hover {
 ul > li strong {
   display: block;
   font-size: 1.2rem;
-  color: #0802be;
+  color: #3c3976;
   margin-bottom: 10px;
 }
 
