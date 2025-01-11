@@ -16,7 +16,7 @@
       .then(comments => {
         let html = '<ul class="comment-list">';
         comments.forEach(comment => {
-                  // Converte il timestamp in un formato leggibile
+        //funzione per la data
         const formattedTimestamp = new Date(comment.timestamp).toLocaleString('it-IT', {
           hour: '2-digit',
           minute: '2-digit',
@@ -25,11 +25,11 @@
           month: '2-digit',
           year: 'numeric'
         });
-          // Costruiamo l'HTML in modo non sicuro
+          // costruiamo l'HTML in modo non sicuro
           html += `<li><strong>${comment.utente} <small>${formattedTimestamp}</small></strong> ${comment.commento}</li>`;
         });
         html += '</ul>';
-        // Inseriamo l'HTML non sanitizzato nel DOM
+        // inseriamo l'HTML non sanitizzato nel DOM
         document.getElementById('comments-container').innerHTML = html;
       })
       .catch(err => console.error('Errore nel recuperare i commenti:', err));
