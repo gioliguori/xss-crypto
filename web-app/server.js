@@ -45,8 +45,6 @@ app.post('/submit-comment', async (req, res) => {
   }
 });
 
-
-
 // Avvio server
 app.listen(PORT, () => {
   console.log(`Server in esecuzione su http://localhost:${PORT}`);

